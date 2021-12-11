@@ -1,0 +1,29 @@
+{
+  "name": "Shreyash",
+  "dob": "20-Jan-1998",
+  "nationality": "India",
+  "contact": 8975692677,
+  "emailID": "shreyashnawghare@gmail.com",
+  "education": {
+    "graduation": {
+      "collegeName": "PCE Nagpur",
+      "department": "Information Technology",
+      "year": "2015-2019",
+      "CGPA": 8.5
+    }
+  },
+  "projects": [
+    {
+      "title": "project 1",
+      "desc": "detailed explaination",
+      "startDate": "25-jul-2021",
+      "endDate": "30-jul-2021"
+    },
+    {
+      "title": "project 2",
+      "desc": "detailed explaination",
+      "startDate": "25-jul-2021",
+      "endDate": "30-jul-2021"
+    }
+  ]
+}

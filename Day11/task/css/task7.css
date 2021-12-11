@@ -1,0 +1,109 @@
+.body {
+  letter-spacing: 0.2rem;
+  display: flex;
+  /* height: 80vh; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  letter-spacing: 0.1rem;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 2rem;
+  background-color: red;
+  color: white;
+}
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 700px;
+  border: 4px solid black;
+}
+a {
+  text-decoration: none;
+}
+
+.italic {
+  font-style: italic;
+}
+form {
+  display: grid;
+  grid-template-areas:
+    "first first first last last last"
+    "address address address address address address"
+    "city city state state zip zip"
+    "plan plan plan plan plan plan"
+    "extra extra extra extra extra extra";
+}
+
+.container div {
+  padding: 0.5rem;
+}
+
+input[type="text"] {
+  font-family: "Style Script", cursive;
+  /* padding: 0rem; */
+  letter-spacing: 0.05rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+  letter-spacing: 0.2rem;
+  border: 2px solid #ccc;
+  background-color: lightgreen;
+}
+
+.extra label {
+  padding: 0.5rem;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-name {
+  grid-area: first;
+}
+.last-name {
+  grid-area: last;
+}
+
+.address {
+  grid-area: address;
+}
+
+.city {
+  grid-area: city;
+}
+
+.state {
+  grid-area: state;
+}
+
+.zip {
+  grid-area: zip;
+}
+.plan {
+  grid-area: plan;
+}
+
+.extra {
+  grid-area: extra;
+}
